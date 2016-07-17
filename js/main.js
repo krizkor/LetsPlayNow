@@ -73,7 +73,7 @@ $( document ).ready(function() {
       reddit_comment_list = $("#reddit_comment_list")
       console.log("reddit")
       $.getJSON(
-        "http://reddit.com/u/{{site.social.reddit.username}}.json?limit=3&jsonp=?",
+        "https://reddit.com/u/{{site.social.reddit.username}}.json?limit=3&jsonp=?",
         function foo(data)
         {
           $.each(
