@@ -6,7 +6,7 @@ To create your own LetsPlayNow site follow these steps:
 
 1. Create a github account (or log in)
 1. Click Fork on this repository at the top right
-1. Edit the _config.yml file in the root of the repository adding your social media usernames, and save the changes.
+1. Edit the _config.yml file in the root of the repository adding your social media usernames, and save the changes. [You can edit files right on github using these instructions](https://help.github.com/articles/editing-files-in-your-repository/).
 1. Visit http://<github username>.github.io/LetsPlayNow to see your personalized site
 
 # Custom Domains
