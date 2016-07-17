@@ -1,0 +1,18 @@
+<!-- Reddit Feature -->
+<div class="col-md-6 col-sm-6 hero-feature reddit-feature">
+    
+    {% if site.social.reddit.subreddit %}
+        <a href="http://reddit.com/r/{{ site.social.reddit.subreddit }}" target="_blank">
+    {% elsif site.social.reddit.username %}
+        <a href="http://reddit.com/u/{{ site.social.reddit.username }}" target="_blank">
+    {% endif %}
+        <img class="channel_logo" src="assets/img/vendor/reddit/snoo.png" style="width:75px;">
+    </a>
+    <br>
+    <div class="player_embed">
+        <div id="reddit_comments">
+            <ul id="reddit_comment_list">
+            </ul>
+        </div>
+    </div>
+</div>

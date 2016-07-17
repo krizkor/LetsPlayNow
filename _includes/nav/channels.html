@@ -1,0 +1,53 @@
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Channels <span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    {% if site.social.youtube.username %}
+      <li>
+        <a href="http://www.youtube.com/{{ site.social.youtube.username }}" target="_blank">YouTube</a>
+      </li>
+    {% endif %}
+
+    {% if site.social.twitter.username %}
+      <li>
+        <a href="http://www.twitter.com/{{ site.social.twitter.username }}" target="_blank">Twitter</a>
+      </li>
+    {% endif %}
+
+    {% if site.social.twitch.username %}
+      <li>
+        <a href="http://www.twitch.tv/{{ site.social.twitch.username }}" target="_blank">Twitch</a>
+      </li>
+    {% endif %}
+      
+    {% if site.social.hitbox.username %}
+      <li>
+        <a href="http://www.hitbox.tv/{{ site.social.hitbox.username }}" target="_blank">Hitbox</a>
+      </li>
+    {% endif %}
+      
+    {% if site.social.facebook.username %}
+      <li>
+        <a href="http://www.facebook.com/{{ site.social.facebook.username }}" target="_blank">Facebook</a>
+      </li>
+    {% endif %}
+    
+    {% if site.social.google+.username %}
+      <li>
+        <a href="http://www.google.com/+{{ site.social.google+.username }}" target="_blank">Google+</a>
+      </li>
+    {% endif %}
+    
+    {% if site.social.steam.username %}
+      <li>
+        <a href="http://www.Steamcommunity.com/id/{{ site.social.steam.username }}" target="_blank">Steam</a>
+      </li>
+    {% endif %}
+
+    {% if site.social.reddit.username %}
+      <li>
+        <a href="https://reddit.com/u/{{ site.social.reddit.username }}" target="_blank">Reddit</a>
+      </li>
+    {% endif %}
+
+  </ul>
+</li>

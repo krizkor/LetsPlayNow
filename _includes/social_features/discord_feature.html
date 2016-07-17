@@ -1,0 +1,12 @@
+<!-- Discord Feature -->
+<div class="col-md-6 col-sm-6 hero-feature">
+    <a href="https://discord.gg/{{ site.social.discord.invite.code}}" target="_blank">
+        <img class="channel_logo" src="assets/img/vendor/discord/Discord-Logo+Wordmark-Color.png" style="width:150px;">
+    </a>
+    <br>
+    {% if site.social.discord.widget.id %}
+    <div class="player_embed">
+        <iframe src="https://discordapp.com/widget?id={{ site.social.discord.widget.id}}&theme=light" width="250" height="300" allowtransparency="true" frameborder="0"></iframe>
+    </div>
+    {% endif %}
+</div>

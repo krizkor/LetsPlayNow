@@ -1,0 +1,135 @@
+html, body {
+  height: 100%;
+}
+
+ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    color: black;
+}
+
+.hide_url_color {
+    color: black;
+}
+
+.discordlink:hover {
+    background: #7289DA;
+    color: white;
+    padding: 2px;
+    border-radius:10px;
+}
+
+.ytlink:hover {
+    background: white;   
+}
+
+.ytlink:hover .yttxt {
+    background: #cc181e;
+    color: white;
+    padding: 2px;
+    border-radius:10px;
+}
+
+.twlink:hover .twtxt {
+    color: white;
+    text-shadow: 1px 2px 8px #6441a5;
+}
+.twlink:hover {
+    color: white;
+    background: #6441a5;
+}
+
+.hilink:hover {
+    color: #718e22;
+    font: 30px;
+}
+.zalink:hover {
+    color: white;
+    text-shadow: 2px 2px 5px red;
+    background-color: #ffa128;
+}
+
+/* color google logo*/
+.golink:hover .gtxt1 {
+    color: #176dee; 
+}
+.golink:hover .gtxt2 {
+    color: #da4631; 
+}
+.golink:hover .gtxt3 {
+    color: #ffba02; 
+}
+.golink:hover .gtxt4 {
+    color: #009856; 
+}
+
+.fblink:hover {
+    background-color: #3b5998;
+    color: white;
+}
+.ttlink:hover {
+    background: #8ec1da;
+    color: white;
+    text-shadow: 2px 2px 7px white;
+}
+.stlink:hover {
+    background: #6b6765;
+    color: #b3b2af;
+    text-shadow: 2px 2px 10px black;
+}
+.ralink:hover {
+    background: #333333;
+    color: #b2b4b4;
+}
+
+.ralink:hover .ratxt {
+    color: #ff9f35;   
+}
+
+.bllink:hover {
+    
+     background-color: #1e8cbe; 
+     color: white;
+     text-shadow: 2px 2px 10px black;  
+}
+
+.doclink:hover {
+    color: black;
+    text-shadow: white 2px 1px 3px;
+    background-color: lightblue;
+}
+
+.gwlink:hover {
+    background: #cc5300;
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
+
+.newslink:hover {
+    background: black;
+    color: white;
+    text-shadow: 2px 2px 7px white;
+}
+
+.hero-feature {
+    padding: 20px;
+}
+
+.channel_logo {
+    transition: all .3s ease-in-out;   
+}
+
+.channel_logo:hover {
+    transform: scale(1.1);
+}
+
+.player_embed {
+    margin-top: 10px;
+}
+
+.footer {
+    position: relative;
+    background-color: white;
+    bottom: 0px;
+    padding-top:2px;
+}

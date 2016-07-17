@@ -1,0 +1,14 @@
+<!-- Youtube Feature -->
+<div class="col-md-6 col-sm-6 hero-feature youtube-feature">
+    <a href="http://youtube.com/{{ site.social.youtube.username }}" target="_blank">
+        <img class="channel_logo" src="assets/img/vendor/youtube/YouTube-icon-full_color.png" style="width:50px;">
+    </a>
+    <br>
+    <div class="player_embed">
+        <iframe id="youtube_embed_iframe" src="http://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list={{ site.social.youtube.username }}&autoplay={{site.social.youtube.auto_play_video}}" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
+    <br>
+    <div>
+        <div class="g-ytsubscribe" data-channel="{{ site.social.youtube.username }}" data-layout="default" data-count="default"></div>
+    </div>
+</div>

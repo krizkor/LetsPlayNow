@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: SirLameGame
+email: your-email@domain.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+nav:
+ brand_name: SirLameSite
+
+analytics:
+ google:
+  analytics_id: UA-47343457-1
+
+social:
+ twitter:
+  username: sirlamegame
+ youtube:
+  username: sirlamegame
+  auto_play_video: 0
+ twitch:
+  username: sirlamegame
+  auto_play_video: 0
+ facebook:
+  username: sirlamegame
+ google+:
+  username: sirlamegame
+ hitbox:
+  username: sirlamegame
+ reddit:
+  username: sirlamegame
+  subreddit: sirlamegame
+ github:
+  username: sirlamegame
+ steam:
+  username: sirlamegame
+ zazzle:
+  username: sirlamegame
+ discord:
+  username: sirlamegame.com
+  invite:
+   code: gVwAqcU
+  widget:
+   id: 197062796511412226
+
+ 
+# Build settings
+markdown: kramdown

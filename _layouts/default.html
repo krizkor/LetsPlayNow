@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav/nav.html %}
+      
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <!--
+        <header class="jumbotron hero-spacer">
+            <h1>A Warm Welcome!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+            <p><a class="btn btn-primary btn-large">Call to action!</a>
+            </p>
+        </header>
+        -->
+        <hr>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Happenings</h3>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Page Features -->
+        <div class="row text-center">
+            
+            {% if site.social.twitter.username %}
+                {% include social_features/twitter_feature.html %}
+            {% endif %}
+
+            {% if site.social.youtube.username %}
+                {% include social_features/youtube_feature.html %}
+            {% endif %}
+            
+            {% if site.social.twitch.username %}
+                {% include social_features/twitch_feature.html %}
+            {% endif %}
+
+            {% if site.social.reddit.username %}
+                {% include social_features/reddit_feature.html %}
+            {% endif %}
+            
+            {% if site.social.github.username %}
+                {% include social_features/github_feature.html %}
+            {% endif %}
+            
+            {% if site.social.zazzle.username %}
+                {% include social_features/zazzle_feature.html %}
+            {% endif %}
+            
+            {% if site.social.discord.username %}
+                {% include social_features/discord_feature.html %}
+            {% endif %}
+            
+        </div>
+        <!-- /.row -->
+
+    {% include footer.html %}
+
+    {% include javascript.html %}
+        
+  </body>
+
+</html>

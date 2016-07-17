@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    SirLameGame
+    @SirLameGame
+    SirLameGame@Gmail.com
+    United States of 'Murica
+    
+# THANKS
+
+    You know who you are
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
