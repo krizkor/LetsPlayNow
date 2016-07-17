@@ -23,7 +23,7 @@ analytics:
 #leave usernames blank to exclude social features
 social:
  twitter:
-  username: @chaoscooperativ
+  username: chaoscooperativ
  youtube:
   username: UCptUr93MbHWsX1xcfLl_NYw
   #1 to auto play video or 0 to load paused
