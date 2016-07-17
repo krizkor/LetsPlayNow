@@ -51,3 +51,6 @@ You can use a custom domain name with your LetsPlayNow website (such as [SirLame
 ## Discord
 1. Instant invite nav link
 1. Embedded server widget on main page ([Must be enabled within Discord first](https://blog.discordapp.com/add-the-discord-widget-to-your-site/))
+
+
+### and more to come!
