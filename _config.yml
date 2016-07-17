@@ -6,14 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: SirLameGame
-email: your-email@domain.com
+title: Chaos Cooperative
+email: chaoscooperative@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 nav:
  #text included on the top left of the navbar which acts as a home button
- brand_name: SirLameSite
+ brand_name: Chaos Cooperative
 
 #Include site analytics
 analytics:
@@ -23,40 +23,16 @@ analytics:
 #leave usernames blank to exclude social features
 social:
  twitter:
-  username: sirlamegame
+  username: @chaoscooperativ
  youtube:
-  username: sirlamegame
+  username: UCptUr93MbHWsX1xcfLl_NYw
   #1 to auto play video or 0 to load paused
-  auto_play_video: 0
- twitch:
-  username: sirlamegame
-  #1 to auto play video or 0 to load paused
-  auto_play_video: 0
+  auto_play_video: 1
  facebook:
-  username: sirlamegame
+  username: Chaos Cooperative
  google+:
-  username: sirlamegame
- hitbox:
-  username: sirlamegame
- reddit:
-  username: sirlamegame
-  #if a subreddit is included it will be used as the URL on the main page reddit logo feature URL
-  subreddit: sirlamegame
- github:
-  username: sirlamegame
- steam:
-  username: sirlamegame
- zazzle:
-  username: sirlamegame
- discord:
-  username: sirlamegame.com
-  invite:
-   #invite code to a discord instant invite url
-   #ex. code: gVwAqcU
-   code: gVwAqcU
-  widget:
-   #add 'server ID' of widget for it to be included https://blog.discordapp.com/add-the-discord-widget-to-your-site/
-   id: 197062796511412226
+  username: Chaos Cooperative
+
 
  
 # Build settings
