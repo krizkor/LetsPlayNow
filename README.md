@@ -1,6 +1,6 @@
 # LetsPlayNow
 
-LetsPlayNow is an open source [jekyll](https://jekyllrb.com/) base for letsplayers to organize all of their social sites into a free [Github Pages](https://pages.github.com/) website. The goal is to make it easier for people who don't have coding skills to create a clean website that shows off the content they create on the platforms they care about.
+LetsPlayNow is an open source [jekyll](https://jekyllrb.com/) base for letsplayers to organize all of their social sites into a free [Github Pages](https://pages.github.com/) website. The goal is to make it easier for people who don't have coding skills to create a clean website that shows off the content they create on the platforms they care about. You can see an example here: [sirlamegame.github.io/LetsPlayNow](https://sirlamegame.github.io/LetsPlayNow)
 
 To create your own LetsPlayNow site follow these steps:
 
