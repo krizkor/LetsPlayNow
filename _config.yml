@@ -12,20 +12,25 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 nav:
+ #text included on the top left of the navbar which acts as a home button
  brand_name: SirLameSite
 
+#Include site analytics
 analytics:
  google:
   analytics_id: UA-47343457-1
 
+#leave usernames blank to exclude social features
 social:
  twitter:
   username: sirlamegame
  youtube:
   username: sirlamegame
+  #1 to auto play video or 0 to load paused
   auto_play_video: 0
  twitch:
   username: sirlamegame
+  #1 to auto play video or 0 to load paused
   auto_play_video: 0
  facebook:
   username: sirlamegame
@@ -35,6 +40,7 @@ social:
   username: sirlamegame
  reddit:
   username: sirlamegame
+  #if a subreddit is included it will be used as the URL on the main page reddit logo feature URL
   subreddit: sirlamegame
  github:
   username: sirlamegame
@@ -45,8 +51,11 @@ social:
  discord:
   username: sirlamegame.com
   invite:
+   #invite code to a discord instant invite url
+   #ex. code: gVwAqcU
    code: gVwAqcU
   widget:
+   #add 'server ID' of widget for it to be included https://blog.discordapp.com/add-the-discord-widget-to-your-site/
    id: 197062796511412226
 
  
